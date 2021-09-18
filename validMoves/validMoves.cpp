@@ -22,8 +22,8 @@ bool check(int row, int col) {
         return true;
     }
     else{
-        cout << "invalid move" << endl;
-    return false;
+        cout << "invalid move, you dumb how can one start in middle of table, always start from start." << endl;
+        return false;
     }
 }
 bool possiblemoveValidity(int prerow, int precol, int newrow, int newcol) {
@@ -51,7 +51,7 @@ bool possiblemoveValidity(int prerow, int precol, int newrow, int newcol) {
         return true;
     }
     else {
-        cout << "cannot jump to other blocks. plz,walk block by block.retry! " << endl;
+        cout << "duh!!!!! This program is not human who can jump so plz,walk block by block.retry! " << endl;
         return false;
     }
 }
